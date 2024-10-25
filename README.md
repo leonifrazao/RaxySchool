@@ -1,4 +1,4 @@
-![Logo do Projeto](imagens/logo.png)
+![Logo do Projeto](itens/logo.png)
 
 
 # Análise de Faltas da Rede de São Paulo - SED
