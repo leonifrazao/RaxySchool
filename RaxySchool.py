@@ -189,10 +189,9 @@ class MenuApp:
 if __name__ == "__main__":
     print("\n\nMuito obrigado por usar o nosso Programa!, Feito por Vitor, "
           "Leoni e Yuri 2A, orientado pelo professor Vinicius")
-    # try:
-    #     usuario, senha, numero_telefone = extras.login.login()
-    # except:
-    #     exit()
-    usuario, senha, numero_telefone = ["gaydokrl", "ne", "11983079381"]
+    try:
+        usuario, senha, numero_telefone = extras.login.login()
+    except:
+        exit()
     menu_app = MenuApp(usuario,senha,numero_telefone)
     menu_app.run()
