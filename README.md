@@ -1,13 +1,19 @@
 <a id="readme-top"></a>
 
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![License][license-shield]][license-url]
+
+![contributors-shield](https://img.shields.io/github/contributors/leonifrazao/RaxySchool.svg?style=for-the-badge)
+
+![forks-shield](https://img.shields.io/github/forks/leonifrazao/RaxySchool.svg?style=for-the-badge)
+
+![stars-shield](https://img.shields.io/github/stars/leonifrazao/RaxySchool.svg?style=for-the-badge)
+
+![issues-shield](https://img.shields.io/github/issues/leonifrazao/RaxySchool.svg?style=for-the-badge)
+
+![license-shield](https://img.shields.io/github/license/leonifrazao/RaxySchool.svg?style=for-the-badge)
 
 <!-- PROJECT LOGO -->
+
 <br />
 <div align="center">
   <a href="https://github.com/leonifrazao/RaxySchool">
@@ -17,253 +23,285 @@
   <h3 align="center">RaxySchool</h3>
 
   <p align="center">
-    Sistema de Análise de Faltas Escolares da Rede Estadual de São Paulo
+    School Absence Analysis System for São Paulo State Public Schools
     <br />
-    <a href="https://github.com/leonifrazao/RaxySchool"><strong>Explore a documentação »</strong></a>
+    <a href="https://github.com/leonifrazao/RaxySchool"><strong>Explore the documentation »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/leonifrazao/RaxySchool/releases">Ver Releases</a>
+    <a href="https://github.com/leonifrazao/RaxySchool/releases">View Releases</a>
     ·
-    <a href="https://github.com/leonifrazao/RaxySchool/issues/new?labels=bug&template=bug-report---.md">Reportar Bug</a>
+    <a href="https://github.com/leonifrazao/RaxySchool/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
-    <a href="https://github.com/leonifrazao/RaxySchool/issues/new?labels=enhancement&template=feature-request---.md">Solicitar Funcionalidade</a>
+    <a href="https://github.com/leonifrazao/RaxySchool/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
   </p>
 </div>
 
 <!-- TABLE OF CONTENTS -->
+
 <details>
-  <summary>Índice</summary>
+  <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#sobre-o-projeto">Sobre o Projeto</a>
+      <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#construído-com">Construído Com</a></li>
+        <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#começando">Começando</a>
+      <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#pré-requisitos">Pré-requisitos</a></li>
-        <li><a href="#instalação">Instalação</a></li>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#uso">Uso</a></li>
-    <li><a href="#funcionalidades">Funcionalidades</a></li>
-    <li><a href="#exemplos-de-análises">Exemplos de Análises</a></li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#analysis-examples">Analysis Examples</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contribuindo">Contribuindo</a></li>
-    <li><a href="#licença">Licença</a></li>
-    <li><a href="#contato">Contato</a></li>
-    <li><a href="#agradecimentos">Agradecimentos</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
 <!-- ABOUT THE PROJECT -->
-## Sobre o Projeto
 
-[![RaxySchool Screen Shot][product-screenshot]](https://github.com/leonifrazao/RaxySchool)
+## About The Project
 
-O **RaxySchool** é uma ferramenta completa para análise de faltas de alunos da rede estadual de ensino de São Paulo, utilizando dados fornecidos pela **Secretaria de Educação do Estado de São Paulo (SED)**. O sistema permite que gestores escolares, coordenadores pedagógicos e educadores identifiquem padrões de ausências e tomem decisões baseadas em dados para melhorar a frequência e o desempenho escolar.
+![product-screenshot](itens/logo.png)
 
-### Por que usar RaxySchool?
+RaxySchool is a comprehensive tool for analyzing student absences in São Paulo's state education network, using data provided by the São Paulo State Department of Education (SED). The system enables school administrators, pedagogical coordinators, and educators to identify absence patterns and make data-driven decisions to improve attendance and academic performance.
 
-* 📊 **Análise Detalhada**: Visualize padrões de faltas por período, escola, sala e região
-* 📧 **Notificações Automatizadas**: Envie mensagens automáticas para pais sobre as ausências
-* 📈 **Relatórios Visuais**: Gráficos e relatórios intuitivos para facilitar a tomada de decisões
-* 🎯 **Identificação de Riscos**: Detecte alunos em situação de risco de evasão escolar
-* ⚡ **Interface Amigável**: Interface gráfica moderna e fácil de usar
+Why use RaxySchool?
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+**Detailed Analysis**: Visualize absence patterns by period, school, classroom, and region
 
-### Construído Com
+**Automated Notifications**: Send automatic messages to parents about student absences
 
-* [![Python][Python.py]][Python-url]
-* [![Pandas][Pandas]][Pandas-url]
-* [![Tkinter][Tkinter]][Tkinter-url]
-* [![Selenium][Selenium]][Selenium-url]
+**Visual Reports**: Intuitive graphs and reports to facilitate decision-making
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+**Risk Identification**: Detect students at risk of school dropout
+
+**User-Friendly Interface**: Modern and easy-to-use graphical interface
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+![Python.py](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+
+![Tkinter](https://img.shields.io/badge/Tkinter-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
-## Começando
 
-Para começar a usar o RaxySchool, siga estas etapas simples de instalação.
+## Getting Started
 
-### Pré-requisitos
+To start using RaxySchool, follow these simple installation steps.
 
-Antes de começar, certifique-se de ter os seguintes requisitos:
+### Prerequisites
 
-* **Python**: Versão 3.7 ou superior
-  ```sh
-  python --version
-  ```
-* **Google Chrome**: Navegador atualizado (para automação com Selenium)
-* **Acesso à SED**: Credenciais válidas para acesso ao sistema da Secretaria de Educação
+Before you begin, make sure you have the following requirements:
 
-### Instalação
+**Python**: Version 3.7 or higher
 
-1. Clone o repositório
-   ```sh
-   git clone https://github.com/leonifrazao/RaxySchool.git
-   ```
+```sh
+python --version
+```
 
-2. Navegue até o diretório do projeto
-   ```sh
-   cd RaxySchool
-   ```
+**Google Chrome**: Updated browser (for Selenium automation)
 
-3. Instale as dependências necessárias
-   ```sh
-   pip install -r requirements.txt
-   ```
+**SED Access**: Valid credentials to access the Department of Education system
 
-4. Configure suas credenciais de acesso à SED (se necessário)
-   ```python
-   # Edite as configurações no arquivo de configuração
-   ```
+### Installation
 
-5. Execute a aplicação
-   ```sh
-   python RaxySchool.py
-   ```
+1. Clone the repository
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+```sh
+git clone https://github.com/leonifrazao/RaxySchool.git
+```
 
-<!-- USAGE -->
-## Uso
+2. Navigate to the project directory
 
-### Interface Principal
+```sh
+cd RaxySchool
+```
 
-A interface do RaxySchool foi desenvolvida com **CustomTkinter** para proporcionar uma experiência moderna e intuitiva:
+3. Install the required dependencies
 
-1. **Login no Sistema**: Insira suas credenciais da SED
-2. **Seleção de Período**: Escolha o período letivo que deseja analisar
-3. **Visualização de Dados**: Veja relatórios e gráficos em tempo real
-4. **Exportação**: Exporte relatórios em formato PDF ou Excel
+```sh
+pip install -r requirements.txt
+```
 
-### Exemplos de Comandos
+4. Configure your SED access credentials (if necessary)
 
 ```python
-# Carregar dados de uma escola específica
+# Edit the settings in the configuration file
+```
+
+5. Run the application
+
+```sh
+python RaxySchool.py
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- USAGE -->
+
+## Usage
+
+### Main Interface
+
+The RaxySchool interface was developed with CustomTkinter to provide a modern and intuitive experience:
+
+**System Login**: Enter your SED credentials
+
+**Period Selection**: Choose the school term you want to analyze
+
+**Data Visualization**: View reports and graphs in real-time
+
+**Export**: Export reports in PDF or Excel format
+
+### Command Examples
+
+```python
+# Load data from a specific school
 from RaxySchool import DataAnalyzer
 
 analyzer = DataAnalyzer()
 analyzer.load_school_data(school_id="123456")
 
-# Gerar relatório de faltas
+# Generate absence report
 report = analyzer.generate_absence_report()
 report.export_to_pdf()
 ```
 
-_Para mais exemplos e documentação detalhada, consulte a [Wiki](https://github.com/leonifrazao/RaxySchool/wiki)_
+For more examples and detailed documentation, see the [Wiki](https://github.com/leonifrazao/RaxySchool/wiki)
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FEATURES -->
-## Funcionalidades
 
-- [x] 📊 **Coleta Automática de Dados**: Extração de dados diretamente da SED
-- [x] 📈 **Análise de Padrões**: Identificação de tendências de ausências
-- [x] 📧 **Notificações para Pais**: Sistema automatizado de alertas
-- [x] 🎨 **Interface Gráfica Moderna**: Desenvolvida com CustomTkinter
-- [x] 📉 **Gráficos Interativos**: Visualizações dinâmicas de dados
-- [x] 📄 **Geração de Relatórios**: Exportação em PDF e Excel
-- [x] 🔍 **Análise por Período**: Comparação de dados entre bimestres/trimestres
-- [x] 🏫 **Análise por Escola/Sala**: Detalhamento por unidade escolar
-- [ ] 📱 Versão Mobile (em desenvolvimento)
-- [ ] 🤖 Integração com WhatsApp API
-- [ ] 📊 Dashboard Web Interativo
-- [ ] 🔔 Sistema de Alertas em Tempo Real
+## Features
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+- Automatic Data Collection: Extraction of data directly from SED
+- Pattern Analysis: Identification of absence trends
+- Parent Notifications: Automated alert system
+- Modern Graphical Interface: Developed with CustomTkinter
+- Interactive Charts: Dynamic data visualizations
+- Report Generation: Export to PDF and Excel
+- Period Analysis: Data comparison between quarters/trimesters
+- School/Classroom Analysis: Breakdown by school unit
+
+**In Development:**
+
+- Mobile Version
+- WhatsApp API Integration
+- Interactive Web Dashboard
+- Real-Time Alert System
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- EXAMPLES -->
-## Exemplos de Análises
 
-### 1. 📅 Distribuição de Faltas por Período
+## Analysis Examples
 
-Análise temporal que identifica períodos críticos com altos índices de ausências ao longo do ano letivo, permitindo ações preventivas em momentos estratégicos.
+### 1. Absence Distribution by Period
 
-### 2. 📧 Mensagens Automatizadas
+Temporal analysis that identifies critical periods with high absence rates throughout the school year, enabling preventive actions at strategic moments.
 
-Sistema de envio automático de notificações para responsáveis sobre as ausências dos alunos, promovendo maior engajamento familiar na vida escolar.
+### 2. Automated Messages
 
-### 3. 🎓 Faltas por Sala
+Automatic notification system for guardians about student absences, promoting greater family engagement in school life.
 
-Comparação detalhada das ausências entre diferentes séries e ciclos escolares, auxiliando na identificação de turmas que necessitam de intervenções específicas.
+### 3. Absences by Classroom
 
-### 4. 📊 Impacto no Desempenho Escolar
+Detailed comparison of absences between different grades and school cycles, helping identify classes that need specific interventions.
 
-Análise cruzada entre padrões de faltas e desempenho acadêmico dos alunos, revelando a correlação entre frequência e aproveitamento escolar.
+### 4. Impact on Academic Performance
 
-### 5. 🗺️ Análise Geográfica
+Cross-analysis between absence patterns and student academic performance, revealing the correlation between attendance and school achievement.
 
-Mapeamento das ausências por região, escola e distrito, permitindo identificar áreas que necessitam de atenção especial.
+### 5. Geographic Analysis
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+Mapping of absences by region, school, and district, allowing identification of areas that need special attention.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
+
 ## Roadmap
 
-- [x] Sistema de coleta de dados da SED
-- [x] Interface gráfica com CustomTkinter
-- [x] Geração de relatórios básicos
-- [x] Sistema de notificações por e-mail
-- [ ] Implementar dashboard web
-- [ ] Integração com WhatsApp Business API
-- [ ] Sistema de predição de evasão escolar usando ML
-- [ ] Aplicativo mobile (iOS/Android)
-- [ ] API REST para integração com outros sistemas
-- [ ] Sistema de backup automático
-- [ ] Suporte multi-idioma
-- [ ] Modo offline para análise de dados
+- [x] SED data collection system
+- [x] Graphical interface with CustomTkinter
+- [x] Basic report generation
+- [x] Email notification system
+- [ ] Implement web dashboard
+- [ ] WhatsApp Business API integration
+- [ ] School dropout prediction system using ML
+- [ ] Mobile application (iOS/Android)
+- [ ] REST API for integration with other systems
+- [ ] Automatic backup system
+- [ ] Multi-language support
+- [ ] Offline mode for data analysis
 
-Veja as [issues abertas](https://github.com/leonifrazao/RaxySchool/issues) para uma lista completa de funcionalidades propostas e problemas conhecidos.
+See the [open issues](https://github.com/leonifrazao/RaxySchool/issues) for a full list of proposed features and known issues.
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
-## Contribuindo
 
-As contribuições são o que tornam a comunidade open source um lugar incrível para aprender, inspirar e criar. Qualquer contribuição que você fizer será **muito apreciada**.
+## Contributing
 
-Se você tiver uma sugestão para melhorar o projeto, faça um fork do repositório e crie um pull request. Você também pode simplesmente abrir uma issue com a tag "enhancement".
-Não se esqueça de dar uma estrela ao projeto! Obrigado novamente!
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
-1. Faça um Fork do Projeto
-2. Crie sua Branch de Funcionalidade (`git checkout -b feature/NovaFuncionalidade`)
-3. Commit suas Mudanças (`git commit -m 'Adiciona NovaFuncionalidade'`)
-4. Push para a Branch (`git push origin feature/NovaFuncionalidade`)
-5. Abra um Pull Request
+If you have a suggestion to improve the project, please fork the repository and create a pull request. You can also simply open an issue with the "enhancement" tag.
+Don't forget to give the project a star! Thanks again!
 
-### Principais Contribuidores
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+### Top Contributors
 
 <a href="https://github.com/leonifrazao/RaxySchool/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=leonifrazao/RaxySchool" alt="contrib.rocks image" />
 </a>
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
-## Licença
 
-Distribuído sob a Licença MIT. Veja `LICENSE` para mais informações.
+## License
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
-## Contato
 
-Leoni Frazão - [@leonifrazao](https://github.com/leonifrazao)
+## Contact
 
-Link do Projeto: [https://github.com/leonifrazao/RaxySchool](https://github.com/leonifrazao/RaxySchool)
+Leoni Frazão - [@leonifrazao](https://twitter.com/leonifrazao)
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+Project Link: [https://github.com/leonifrazao/RaxySchool](https://github.com/leonifrazao/RaxySchool)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGMENTS -->
-## Agradecimentos
 
-Recursos e ferramentas que tornaram este projeto possível:
+## Acknowledgments
+
+Resources and tools that made this project possible:
 
 * [Python Documentation](https://docs.python.org/)
 * [Pandas Documentation](https://pandas.pydata.org/)
@@ -274,37 +312,18 @@ Recursos e ferramentas que tornaram este projeto possível:
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 
-<p align="right">(<a href="#readme-top">voltar ao topo</a>)</p>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
 <div align="center">
 
-### 🎓 Desenvolvido com foco na educação
+**Developed with a focus on education**
 
-*Ajudando escolas a melhorar a frequência e o desempenho dos alunos através de dados*
+Helping schools improve student attendance and performance through data
 
-**[⬆ Voltar ao topo](#readme-top)**
+[Back to top](#readme-top)
 
 </div>
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[contributors-shield]: https://img.shields.io/github/contributors/leonifrazao/RaxySchool.svg?style=for-the-badge
-[contributors-url]: https://github.com/leonifrazao/RaxySchool/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/leonifrazao/RaxySchool.svg?style=for-the-badge
-[forks-url]: https://github.com/leonifrazao/RaxySchool/network/members
-[stars-shield]: https://img.shields.io/github/stars/leonifrazao/RaxySchool.svg?style=for-the-badge
-[stars-url]: https://github.com/leonifrazao/RaxySchool/stargazers
-[issues-shield]: https://img.shields.io/github/issues/leonifrazao/RaxySchool.svg?style=for-the-badge
-[issues-url]: https://github.com/leonifrazao/RaxySchool/issues
-[license-shield]: https://img.shields.io/github/license/leonifrazao/RaxySchool.svg?style=for-the-badge
-[license-url]: https://github.com/leonifrazao/RaxySchool/blob/master/LICENSE
-[product-screenshot]: itens/logo.png
-[Python.py]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
-[Python-url]: https://www.python.org/
-[Pandas]: https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white
-[Pandas-url]: https://pandas.pydata.org/
-[Tkinter]: https://img.shields.io/badge/Tkinter-3776AB?style=for-the-badge&logo=python&logoColor=white
-[Tkinter-url]: https://docs.python.org/3/library/tkinter.html
-[Selenium]: https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white
-[Selenium-url]: https://www.selenium.dev/
